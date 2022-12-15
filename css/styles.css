@@ -44,3 +44,8 @@ body {
     border-bottom: 1px ridge;
     min-height: 400px;
 }
+.carousel .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
