@@ -14,12 +14,7 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
-      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
-      crossorigin="anonymous"
-    />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
     <title>Bootstrap Assignment</title>
   </head>
   <body>
@@ -84,7 +79,7 @@
           </a>
         </div>
       </div>
-      <header>
+      <header >
         <nav class="navbar navbar-light navbar-expand-sm fixed-top">
           <a class="navbar-brand" href="#"
             ><img src="img/logo.png" height="50" width="150"
@@ -154,7 +149,7 @@
                 </ul>
               </li>
             </ul>
-            <button type="button">
+            <button type="button"class="btn btn-primary " id="button1">
               <span>Donate </span>
             </button>
             <a class="navbar-brand" href="#"
@@ -164,7 +159,7 @@
         </nav>
       </header>
       <main>
-        <div class="container-fluid">
+        <div class="container-fluid mt-5">
           <div class="row">
             <div class="col-6">
               <div
@@ -441,7 +436,7 @@
           <div class="row align-items-center justify-content-center">
             <div class="col-8 offset-1">
               <div
-                id="carouselExampleControls2"
+                id="carouselExampleControls4"
                 class="carousel slide"
                 data-bs-ride="carousel"
               >
@@ -511,22 +506,22 @@
                   </div>
                   <ol class="carousel-indicators">
                     <li
-                      data-bs-target="#carouselExampleControls2"
+                      data-bs-target="#carouselExampleControls4"
                       data-bs-slide-to="0"
                       class="active"
                     ></li>
                     <li
-                      data-bs-target="#carouselExampleControls2"
+                      data-bs-target="#carouselExampleControls4"
                       data-bs-slide-to="1"
                     ></li>
                     <li
-                      data-bs-target="#carouselExampleControls2"
+                      data-bs-target="#carouselExampleControls4"
                       data-bs-slide-to="2"
                     ></li>
                   </ol>
                   <a
                     class="carousel-control-prev"
-                    href="#carouselExampleControls2"
+                    href="#carouselExampleControls4"
                     role="button"
                     data-bs-slide="prev"
                   >
@@ -534,7 +529,7 @@
                   </a>
                   <a
                     class="carousel-control-next"
-                    href="#carouselExampleControls2"
+                    href="#carouselExampleControls4"
                     role="button"
                     data-bs-slide="next"
                   >
@@ -545,18 +540,19 @@
             </div>
         </div>
       </main>
+    </div>
       <footer class="footer mt-5">
         <div class="container">
           <div class="row">
             <div class="col-2">
               <ul class="list-unstyled">
-                <li>Privacy policy</li>
-                <li>Terms of Services</li>
-                <li>Sitemap</li>
-                <li>News&Events</li>
-                <li>Contact Us</li>
-                <li>Donar Events</li>
-                <li>FAQ</li>
+                <li  class="mb-3"><a href="#">Privacy policy</a></li>
+                <li class="mb-3"><a href="#">Terms of Services</a></li>
+                <li class="mb-3"><a href="#">Sitemap</a></li>
+                <li class="mb-3"><a href="#">News&Events</a></li>
+                <li class="mb-3"><a href="#">Contact Us</a></li>
+                <li class="mb-3"><a href="#">Donar Events</a></li>
+                <li class="mb-3"><a href="#">FAQ</a></li>
               </ul>
             </div>
             <div class="col-8">
@@ -565,22 +561,28 @@
             <div class="col-2">
               <h6>Partner NGO</h6>
               <ul class="list-unstyled">
-                <li><img class="img-fluid" src="img/partner_logos_1.png" /></li>
-                <li>
+                <li class="mb-3"><img class="img-fluid" src="img/partner_logos_1.png" /></li>
+                <li class="mb-3">
                   <img class="img-fluid" src="img/sogeti-by-capgemini.png" />
                 </li>
-                <li><img class="img-fluid" src="img/altran_logo_new.png" /></li>
+                <li class="mb-3"><img class="img-fluid" src="img/altran_logo_new.png" /></li>
               </ul>
             </div>
           </div>
+          <hr/>
           <div class="row">
-            <div class="col-6 offset-1 col-sm-2">
+            <div class="col-6">
               <p>2020 Capgemini.All rights reserved.</p>
+            </div>
+            <div class="col-6 d-flex flex-row-reverse">
+              <a href="http://youtube.com/"><i class="fa fa-youtube circle-icon ms-3"></i></a>
+              <a  href="http://www.linkedin.com/in/"><i class="fa fa-linkedin circle-icon ms-3"></i></a>
+              <a  href="http://twitter.com/"><i class="fa fa-twitter circle-icon ms-3"></i></a>
+              <a  href="http://www.facebook.com/profile.php?id="><i class="fa fa-facebook circle-icon ms-3"></i></a>
             </div>
           </div>
         </div>
       </footer>
-    </div>
     <!-- <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
@@ -596,5 +598,6 @@
       integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
       crossorigin="anonymous"
     ></script>
+    <script src="js/scripts.js"></script>
   </body>
 </html>
