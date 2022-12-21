@@ -1,7 +1,7 @@
 $(window).scroll(function(){
     if($(this).scrollTop()>15){
-        $('header').addClass("fixed-content");
+        $('header').addClass("navbar-light");
     }else{
-        $('header').removeClass("fixed-content");
+        $('header').removeClass("navbar-light");
     }
 });
