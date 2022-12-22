@@ -1,7 +1,9 @@
 $(window).scroll(function(){
-    if($(this).scrollTop()>15){
-        $('header').addClass("navbar-light");
+    if($(this).scrollTop()<500 && $(this).scrollTop()>15 ){
+        $('nav').removeClass("navbar-light");
+        $('a').addClass("text-white");    
     }else{
-        $('header').removeClass("navbar-light");
+        $('nav').addClass("navbar-light");
+        $('a').removeClass("text-white");
     }
 });
